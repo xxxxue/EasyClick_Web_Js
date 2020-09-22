@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xsi:noNamespaceSchemaLocation="layout.xsd"
+              android:layout_height="match_parent"
+              android:layout_width="match_parent"
+              android:tag="mLinear">
+
+    <WebView android:tag="mWebView" android:layout_width="match_parent" android:layout_height="match_parent" android:url="index.html"/>
+
+
+</LinearLayout>
+
+

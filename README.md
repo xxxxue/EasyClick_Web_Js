@@ -1,7 +1,41 @@
-- libs/jarlibs文件夹用于存放三方引用jar包，会被合并到插件中
-- libs/solibs 存放so封装的文件，会被编译到插件的 lib 文件夹中
-- libs/resources 存放资源的文件，会被编译到插件的 resources 文件夹中
-- libs/jslibs 存放JS类库文件，不会编译到插件中，仅用来进行测试和调用
-- main.js 文件仅用于测试用，不会编译到插件中
-- 如果手动更改类名，请在main.js中同时进行更改
-- 插件也可以使用Android Studio开发，其可以对代码进行混淆。
+# EasyClick  Html  与 EasyClick  Js 交互
+
+
+
+## 介绍
+
+> Html 与 Ec js 交互
+>
+> 仓库中例子使用了vue . 
+>
+> 可以把vue 换成 Jquery ,或者是其他的框架
+
+## 注意事项
+
+> 必须使用 EC 5.0.0  以上的版本
+>
+> ! ! ! ! ! 低版本 有bug  不能使用 JavaAdapter
+
+## jar包问题
+
+> 仓库上传代码的时候 
+>
+> 由于 android.jar  和 opencv-4.3.0.jar  太大.
+>
+> 而且对于本项目没有什么帮助, 
+>
+> 所以 移除了 这两个 jar
+>
+> 如果要用于生产环境, 
+>
+> 建议 自己新创建一个项目,
+>
+> 将 核心代码 复制到自己的项目中使用
+
+## 核心代码目录
+
+> src  --->  layout 
+
+## QQ
+
+> 1659809758

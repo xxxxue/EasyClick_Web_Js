@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="035b48f4-51a8-4a27-87a3-d86a2d172126" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp.iec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ec5_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jslibs/acEvent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jslibs/agentEvent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jslibs/basic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jslibs/device.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jslibs/ecloud.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jslibs/file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jslibs/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jslibs/http.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jslibs/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jslibs/shell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jslibs/sqlite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jslibs/thread.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jslibs/uilayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jslibs/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/bak.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/layout.attr.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/layout.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/update.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/plugin/ZLlwuDmfGC/PluginClz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/plugin/ZLlwuDmfGC/PluginClz.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1hr3mDN4ihAsqs5q2yntKwfk8Hk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="flattenModules" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../../../Software/androidstudioSDK" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/layout" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Work\EC_Project\ec5_demo\src\layout" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="035b48f4-51a8-4a27-87a3-d86a2d172126" name="Default Changelist" comment="" />
+      <created>1600755541229</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600755541229</updated>
+      <workItem from="1600755547136" duration="6629000" />
+      <workItem from="1600765638912" duration="3421000" />
+      <workItem from="1600769296729" duration="7224000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="771" y="297" key="FileChooserDialogImpl" timestamp="1600761462928">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="771" y="297" key="FileChooserDialogImpl/62.0.1858.1080/1920.-402.1080.1890@62.0.1858.1080" timestamp="1600761462928" />
+    <state x="494" y="186" key="SettingsEditor" timestamp="1600769256021">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="494" y="186" key="SettingsEditor/62.0.1858.1080/1920.-402.1080.1890@62.0.1858.1080" timestamp="1600769256021" />
+    <state width="567" height="111" key="javadoc.popup.new" timestamp="1600774158593">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="567" height="111" key="javadoc.popup.new/62.0.1858.1080/1920.-402.1080.1890@62.0.1858.1080" timestamp="1600774158593" />
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1600763662224">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080/1920.-402.1080.1890@62.0.1858.1080" timestamp="1600763662224" />
+  </component>
+</project>
