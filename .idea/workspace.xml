@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="035b48f4-51a8-4a27-87a3-d86a2d172126" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp.iec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ec5_demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jslibs/acEvent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jslibs/agentEvent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jslibs/basic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jslibs/device.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jslibs/ecloud.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jslibs/file.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jslibs/global.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jslibs/http.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jslibs/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jslibs/shell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jslibs/sqlite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jslibs/thread.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jslibs/uilayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/jslibs/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/bak.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/layout.attr.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/layout.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/update.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/plugin/ZLlwuDmfGC/PluginClz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/plugin/ZLlwuDmfGC/PluginClz.java" afterDir="false" />
-    </list>
+    <list default="true" id="035b48f4-51a8-4a27-87a3-d86a2d172126" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +72,7 @@
       <updated>1600755541229</updated>
       <workItem from="1600755547136" duration="6629000" />
       <workItem from="1600765638912" duration="3421000" />
-      <workItem from="1600769296729" duration="7224000" />
+      <workItem from="1600769296729" duration="7964000" />
     </task>
     <servers />
   </component>
