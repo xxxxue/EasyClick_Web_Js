@@ -9,7 +9,7 @@
             body {
                 margin: 0;
                 padding: 0;
-                overflow: hidden;
+                overflow: scroll;
             }
 
             body {
@@ -20,29 +20,27 @@
 
             /*等 页面 和 js 全部加载完再显示body*/
             body {
-                display : none;
+                display: none;
+
+                width: 100%;
+                height: 100%;
+                /* background: yellow; */
+                position: absolute;
             }
         </style>
     </head>
     <body>
-
         <div id="app">
             <button @click="testClick()">测试按钮</button>
             <ul>
-
-                <li v-for="item in dataList" v-bind:key="item.id">
-                    序号: {{item.id}}
-                    名字: {{item.name}}
-                    地址: {{item.address}}
+                <li v-for="item in dataList" v-bind:key="item.id">序号: {{item.id}} 名字: {{item.name}} 地址:
+                    {{item.address}}
                 </li>
-
             </ul>
-
 
             <ul>
                 <li v-for="item in ecMsgList">{{item}}</li>
             </ul>
-
         </div>
     </body>
 
@@ -57,7 +55,7 @@
         //console.timeEnd('foo'); // 停止 foo 计时器并输出经过的时间
 
         //隐藏ec开始按钮
-        window.ec.hideStartBtn()
+        window.ec.hideStartBtn();
 
         //初始化vue3
         let vueObj = Vue.createApp({
@@ -65,27 +63,26 @@
                 //vue3 定义属性 (双向绑定)
                 const state = Vue.reactive({
                     dataList: [],
-                    ecMsgList: []
+                    ecMsgList: [],
                 });
 
                 //vue3 定义方法
                 function testClick() {
-                    state.dataList = JSON.parse(callEc("ecFunc", ["我是web", 2, 34]))
+                    state.dataList = JSON.parse(callEc("ecFunc", ["我是web", 2, 34]));
                     //vConsole.show(); // 显示vconsole
                 }
 
                 return {
                     ...Vue.toRefs(state),
-                    testClick
-                }
-            }
-        }).mount('#app') //挂载到 id='app'
+                    testClick,
+                };
+            },
+        }).mount("#app"); //挂载到 id='app'
 
-        console.log("vue对象: ", vueObj)
+        console.log("vue对象: ", vueObj);
 
         //测试 vue外部修改属性
         //vueObj.dataList = [{id: 1, name: "小明1", address: "北京1"}]
-
 
         //测试 vue外部定义方法
         // vueObj.testMethod=function () {
@@ -102,19 +99,18 @@
          * @param callBack
          */
         function pushLog(data, callBack) {
-
-            console.log("被ec调用了,参数:", data)
+            console.log("被ec调用了,参数:", data);
 
             //测试外部 更改 属性值
             vueObj.ecMsgList = data;
 
             //测试toast
-            layToast("layTo")
+            layToast("layTo");
 
-            ecToast("ecTo")
+            ecToast("ecTo");
 
             //调用 ec 发送callback
-            callEc(callBack, "callback嘿嘿嘿嘿")
+            callEc(callBack, "callback嘿嘿嘿嘿");
         }
 
         /**
@@ -159,21 +155,21 @@
         function callEc(functionName, arrParam) {
             let res = undefined;
             try {
-                console.log(`"callEc  方法名: ${functionName}   参数: ${arrParam} "`)
+                console.log(`"callEc  方法名: ${functionName}   参数: ${arrParam} "`);
                 res = prompt(functionName, JSON.stringify(arrParam));
             } catch (error) {
                 layToast(error);
             }
             return res;
         }
+
         //#endregion
 
         /**
          * 等 页面 和 js 全部加载完再显示body
          */
-        document.addEventListener("DOMContentLoaded", function(){
+        document.addEventListener("DOMContentLoaded", function () {
             document.body.style.display = "block";
         });
     </script>
-
 </html>
